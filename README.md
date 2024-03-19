@@ -15,6 +15,12 @@
 ---
 
 5. git status - посмотреть статус репозитория
-6. git add . - подготавливает все файлы для добавления в репозиторий
+6. git add . - добавляет все файлы в stage
 7. git commit -m "comment" - применяет добавление файлов
 8. git push [url rep or name rep] [name branch]
+
+---
+
+9. git reset [file] - убрать файл из stage
+10. git diff - показывает все изменения в файлах
+11. git reset --hard - убрать все изменения в файлах
