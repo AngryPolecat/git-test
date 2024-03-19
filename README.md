@@ -19,10 +19,14 @@
 7. git status - посмотреть статус репозитория
 8. git add . - добавляет все файлы в stage
 9. git commit -m "comment" - применяет добавление файлов
-10. git push [url rep or name rep] [name branch]
+10. git push [url rep or name rep] [name branch] - синхонизация github с локальным репозиторием
 
 ---
 
 11. git reset [file] - убрать файл из stage
 12. git diff - показывает все изменения в файлах
 13. git reset --hard - убрать все изменения в файлах
+
+---
+
+14. git pull [url rep or name rep] [name branch] - синхронизация локального репозитория с github
